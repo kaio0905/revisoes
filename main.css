@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+}
+
+p{
+    color: blue;
+}
+
+.geral{
+    border-style: solid;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.topo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 75px;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.meio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 63vh;
+}
+
+.meioesquerda, .meiomeio, .meiodireita{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 33%;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.baixo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-style: solid;
+    height: 75px;
+    border-radius: 10px;
+    margin: 10px;
+}
